@@ -28,11 +28,11 @@
 
         <div class="loginblock">
             <form action="./login" method="post" id="form">
-            	<div>
-            		<img src="img/login.png" width="75%" height="75%">
-            	</div>
                 <div>
-                    <h1>Effettua l'accesso</h1>
+                    <img src="img/login.png" width="75%" height="75%">
+                </div>
+                <div>
+                    <h1 style="color: green ">Effettua l'accesso</h1>
                     <input type="email" id="email" name="email" autofocus placeholder="Inserisci email..." required><br>
                     <br>
                     <input type="password" id="password" name="password" autofocus placeholder="Inserisci password..."
@@ -43,13 +43,13 @@
                     %>
                     <span class="Errorelogin" id="login"><%=Alert %></span><br><br>
                     <%} %>
-                    <input type="submit" value="Accedi" id="Accedi"><br>
+                    <input type="submit" style="background-color: #33cc33" value="Accedi" id="Accedi"><br>
                 </div>
                 <div>
                     <br>
                     <hr>
                     <p>Sei nuovo? Registrati subito!</p>
-                    <a href="RegistrazioneView.jsp"><input type="button" value="Registrati"></a>
+                    <a href="RegistrazioneView.jsp"><input type="button" style="background-color: #33cc33" value="Registrati"></a>
                 </div>
             </form>
         </div>

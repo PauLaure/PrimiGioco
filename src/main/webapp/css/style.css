@@ -166,6 +166,7 @@ login {
 .login input {
     font-size: 20px;
     padding: 5px 5px 5px 5px;
+    border-radius: 20px;
 }
 
 .login img {
@@ -218,7 +219,7 @@ login {
 .container .registrazione-left {
     width: 60%;
     height: 100%;
-    background: #e9eceb;
+    background: #33cc33;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 30px 25px;
@@ -1583,7 +1584,8 @@ login {
 @media screen and (max-width: 1000px) {
     .header {
         position: static;
-        background-color: #292929;
+        background-color: #FFBF00;
+        color: "#FFBF00";
         height: 150px;
         min-height: 100%;
     }
@@ -1600,10 +1602,6 @@ login {
 
     .logo {
         width: 50%;
-    }
-
-    .logo img {
-        width: 240px;
     }
 
     .utente, .carrello {
@@ -1878,7 +1876,8 @@ login {
 
     .header {
         position: static;
-        background-color: #292929;
+        background-color: #FFBF00;
+        color: "#FFBF00";
         height: 300px;
     }
 
@@ -1924,7 +1923,6 @@ login {
     }
 
     .logo img {
-        width: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
