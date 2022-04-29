@@ -3,7 +3,7 @@
 	<%
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
 	if(prodotti == null){
-		response.sendRedirect("ErrorPage.jsp");
+		response.sendRedirect("./catalogo");
 		return;	
 	}
 	int index = (int) request.getSession().getAttribute("index");
@@ -26,50 +26,7 @@
 
 <body>
 	<%@include file="header.jsp" %>
-<!--  
-	<div class="slideshow-container">
-		<div class="sliderPreferences">
-			<div class="mySlides fade">
-				<img src="./img-banner/slidebanner1_new.jpg" height="400" width="100%">	
-			</div>
-					
-			<div class="mySlides fade">
-				<img src="./img-banner/slidebanner2_new.jpg" height="400" width="100%">
-			</div>
-					
-			<div class="mySlides fade">
-				<img src="./img-banner/slidebanner3_new.jpg" height="400" width="100%">
-			</div>
-		</div>
-	<div style="text-align: center">
-		<span class="dot"></span>
-		<span class="dot"></span>
-		<span class="dot"></span>
-	</div>
-	</div>
-	<script>
-		var slideIndex = 0;
-		showSlides();
-		
-		function showSlides() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-			var dots = document.getElementsByClassName("dot");
-			for(i=0;i<slides.length;i++){
-				slides[i].style.display = "none";
-			}
-			slideIndex++;
-			if(slideIndex >slides.length) {slideIndex = 1}
-			for(i=0;i<dots.length;i++){
-				dots[i].className = dots[i].className.replace(" active","");
-			}
-			slides[slideIndex-1].style.display = "block";
-			dots[slideIndex-1].className += " active";
-			setTimeout(showSlides, 10000); //cambio ogni 10 secondi
-		}
-		
-	</script>
-	-->
+
 	<div class="content">
 	<h2>Prodotti</h2>
 	<div class="prodotti">

@@ -37,7 +37,7 @@ public class LoginControl extends HttpServlet {
 					else if (user.getRuolo().equalsIgnoreCase("admin") && user.isValid()){
 						HttpSession sessione = request.getSession(true);
 						sessione.setAttribute("admin", user);
-						RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/Admin/Admin.jsp");
+						RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/admin");
 						dispatcher.forward(request, response);
 						return;
 					}

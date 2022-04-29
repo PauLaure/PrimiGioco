@@ -90,21 +90,7 @@
 		<a href="catalogo">Home</a>
 		<div class="dropdown">
 			<a class="dropLink navmenuspacer">Catalogo</a>
-			<ul class="dropdown-contenuto">
-					<li><div class="dropdown2">
-										
-				</div></li>
-				<li><div class="dropdown2">		
-					<a class="dropLink2" href="./chooseType?tipologia=Tavolo">Tavolo</a>
-						<ul class="dropdown-contenuto2">
-							<li><a href="./chooseType?tipologia=Tavolo&like=UNO">UNO</a></li>
-							<li><a href="./chooseType?tipologia=Tavolo&like=JENGA">JENGA</a></li>
-							<li><a href="./chooseType?tipologia=Tavolo&like=SCARABEO">SCARABEO</a></li>
-						</ul>	
-				</div></li>
-				<li><a href="./chooseType?tipologia=Monitor">Bambini</a></li>	
-				<li><a href="./chooseType?tipologia=Webcam">Ragazzini</a></li>
-			</ul>
+			
 		
 
 			</div>
