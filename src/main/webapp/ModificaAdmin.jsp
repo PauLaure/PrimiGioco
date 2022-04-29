@@ -12,7 +12,7 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <title>PrimiGioco: Admin-Modifica</title>
 </head>
 <body>

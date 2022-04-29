@@ -15,7 +15,7 @@
     <script type="text/javascript" src="script/countElem.js"></script>
     <script type="text/javascript" src="script/AddCart.js"></script>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <title>PrimiGioco: Login</title>
 
 </head>
@@ -28,6 +28,9 @@
 
         <div class="loginblock">
             <form action="./login" method="post" id="form">
+            	<div>
+            		<img src="img/login.png" width="75%" height="75%">
+            	</div>
                 <div>
                     <h1>Effettua l'accesso</h1>
                     <input type="email" id="email" name="email" autofocus placeholder="Inserisci email..." required><br>

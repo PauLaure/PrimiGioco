@@ -18,7 +18,7 @@
 
 
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <title>PrimiGioco: Dettagli <%=prodotto.getDescrizione() %>
     </title>
 </head>

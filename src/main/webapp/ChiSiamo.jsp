@@ -5,7 +5,7 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <script type="text/javascript" src="script/countElem.js"></script>
     <script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>
 

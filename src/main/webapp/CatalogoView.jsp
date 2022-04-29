@@ -16,7 +16,7 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="script/AddCart.js"></script>
 
