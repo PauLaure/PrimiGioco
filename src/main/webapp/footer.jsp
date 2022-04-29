@@ -30,13 +30,13 @@
 	
 	<div class="socialdistance">
 		<div class="social">
-		<a href="https://www.instagram.com/pcworld_italia/" target="_blank"><img src="img/instagram-grigio.png" class="image" hspace="3"></a>
+		<a href="https://www.instagram.com/PrimiGioco" target="_blank"><img src="img/instagram-grigio.png" class="image" hspace="3"></a>
 		</div>
 		<div class="social">
-		<a href="https://www.facebook.com/groups/833165060604827" target="_blank"><img src="img/facebook-grigio.png" class="image" hspace="3"></a>
+		<a href="https://www.facebook.com/PrimiGioco" target="_blank"><img src="img/facebook-grigio.png" class="image" hspace="3"></a>
 		</div>
 		<div class="social">
-		<a href="https://twitter.com/PCWorld41611665" target="_blank"><img src="img/twitter-grigio.png" class="image" hspace="3"></a>
+		<a href="https://twitter.com/PrimiGioco" target="_blank"><img src="img/twitter-grigio.png" class="image" hspace="3"></a>
 		</div>
 	</div>
 </div>

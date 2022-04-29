@@ -18,12 +18,15 @@ import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
 import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 
 public class ProdottoDAO implements ProdottoModel<ProdottoBean>{
 	private static final String TABLE_NAME = "articolo";
 	private static DataSource ds;
-	
+    
 	static {
 		try {
 			Context init = new InitialContext();

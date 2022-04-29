@@ -26,7 +26,7 @@
 	
 <div class="header" id="header">
 	<div class="logo">
-		<a href="./catalogo">
+		<a href="CatalogoControl">
 			<img src="img/logo2.png">
 		</a>
 	</div>

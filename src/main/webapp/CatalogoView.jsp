@@ -3,7 +3,7 @@
 	<%
 	ArrayList<?> prodotti = (ArrayList<?>) request.getAttribute("prodotti");
 	if(prodotti == null){
-		response.sendRedirect("./CatalogoView.jsp");
+		response.sendRedirect("ErrorPage.jsp");
 		return;	
 	}
 	int index = (int) request.getSession().getAttribute("index");
