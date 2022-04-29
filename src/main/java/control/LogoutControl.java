@@ -11,17 +11,17 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/LogoutControl")
 public class LogoutControl extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getSession().removeAttribute("Utente");
-		request.getSession().invalidate();
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/catalogo");
-		dispatcher.forward(request, response);
-		
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getSession().removeAttribute("Utente");
+        request.getSession().invalidate();
+        RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/catalogo");
+        dispatcher.forward(request, response);
 
-	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	}
+    }
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    }
 }
