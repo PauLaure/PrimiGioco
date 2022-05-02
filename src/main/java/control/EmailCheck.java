@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -8,8 +8,8 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import it.unisa.model.dao.UserDAO;
-import it.unisa.model.bean.UserBean;
+import model.dao.UserDAO;
+import model.bean.UserBean;
 
 
 

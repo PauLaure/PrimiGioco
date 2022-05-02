@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.*;
 
-import it.unisa.model.dao.ProdottoDAO;
-import it.unisa.model.bean.ProdottoBean;
+import model.dao.ProdottoDAO;
+import model.bean.ProdottoBean;
 
 public class ChooseTypeControl extends HttpServlet {
     private static final long serialVersionUID = 1L;

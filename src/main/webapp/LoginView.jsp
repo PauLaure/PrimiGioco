@@ -29,7 +29,7 @@
         <div class="loginblock">
             <form action="./login" method="post" id="form">
                 <div>
-                    <img src="img/login.png" width="75%" height="75%">
+                    <img src="img/login.png" width="100%" height="100%">
                 </div>
                 <div>
                     <h1 style="color: green ">Effettua l'accesso</h1>
