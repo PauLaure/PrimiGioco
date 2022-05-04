@@ -20,7 +20,7 @@
     <script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>
 
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="img/logo2.png"/>
     <title>PrimiGioco: Admin</title>
 </head>
 <body>

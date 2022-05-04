@@ -16,7 +16,7 @@
     <title>PrimiGioco: Admin-Modifica</title>
 </head>
 <body>
-<%@include file="headerAdmin.jsp" %>
+<%@include file="/headerAdmin.jsp" %>
 <br>
 <h2 style="text-align: center;">Modifica Prodotto</h2><br>
 <div class="modificaAdmin">

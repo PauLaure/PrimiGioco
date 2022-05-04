@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.Date;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.unisa.model.bean.*;
-import it.unisa.model.dao.IndirizzoDAO;
-import it.unisa.model.dao.PagamentoDAO;
+import model.bean.*;
+import model.dao.IndirizzoDAO;
+import model.dao.PagamentoDAO;
 
 
 public class InserimentoFinalControl extends HttpServlet {

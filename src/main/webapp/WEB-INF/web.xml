@@ -9,67 +9,171 @@
 
     </welcome-file-list>
     <servlet>
-        <servlet-name>ModificaAdminControl</servlet-name>
-        <servlet-class>control.ModificaAdminControl</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AdminControl</servlet-name>
-        <servlet-class>control.AdminControl</servlet-class>
-    </servlet>
+		<servlet-name>CarrelloControl</servlet-name>
+		<servlet-class>control.CarrelloControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>CatalogoControl</servlet-name>
+		<servlet-class>control.CatalogoControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>DettagliControl</servlet-name>
+		<servlet-class>control.DettagliControl</servlet-class>
+		
+	</servlet>
+	
+	<servlet>
+		<servlet-name>LoginControl</servlet-name>
+		<servlet-class>control.LoginControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>RegistrazioneControl</servlet-name>
+		<servlet-class>RegistrazioneControl</servlet-class>
+	</servlet>
+	
+	
+	
+	<servlet>
+		<servlet-name>LogoutControl</servlet-name>
+		<servlet-class>control.LogoutControl</servlet-class>
+	</servlet>
+	
+	
+	
+	<servlet>
+		<servlet-name>DettagliOrdineControl</servlet-name>
+		<servlet-class>it.unisa.control.DettagliOrdineControl</servlet-class>
+	</servlet>
+	
+	
+	
+	<servlet>
+		<servlet-name>AdminControl</servlet-name>
+		<servlet-class>control.AdminControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>InsertAdminControl</servlet-name>
+		<servlet-class>control.InsertAdminControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ModificaAdminControl</servlet-name>
+		<servlet-class>control.ModificaAdminControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>OrdiniAdminControl</servlet-name>
+		<servlet-class>control.OrdiniAdminControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ChooseTypeControl</servlet-name>
+		<servlet-class>control.ChooseTypeControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>LogoutAdminControl</servlet-name>
+		<servlet-class>control.LogoutAdminControl</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>EmailCheck</servlet-name>
+		<servlet-class>control.EmailCheck</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ElemCarrelloCount</servlet-name>
+		<servlet-class>control.ElemCarrelloCount</servlet-class>
+	</servlet>
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>CarrelloControl</servlet-name>
+		<url-pattern>/carrello</url-pattern>
+	</servlet-mapping>
 
-    <servlet>
-        <servlet-name>InsertAdminControl</servlet-name>
-        <servlet-class>control.InsertAdminControl</servlet-class>
-    </servlet>
-
-    <servlet>
-        <servlet-name>DettagliControl</servlet-name>
-        <servlet-class>control.DettagliControl</servlet-class>
-
-    </servlet>
-
-
-    <servlet>
-        <servlet-name>CatalogoControl</servlet-name>
-        <servlet-class>control.CatalogoControl</servlet-class>
-    </servlet>
-
-    <servlet>
-        <servlet-name>LoginControl</servlet-name>
-        <servlet-class>control.LoginControl</servlet-class>
-    </servlet>
-
-    <servlet-mapping>
-        <servlet-name>CatalogoControl</servlet-name>
-        <url-pattern>/catalogo</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>DettagliControl</servlet-name>
-        <url-pattern>/dettagli</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>LoginControl</servlet-name>
-        <url-pattern>/login</url-pattern>
-    </servlet-mapping>
-
-
-    <servlet-mapping>
-        <servlet-name>AdminControl</servlet-name>
-        <url-pattern>/admin</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>ModificaAdminControl</servlet-name>
-        <url-pattern>/modifica</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>InsertAdminControl</servlet-name>
-        <url-pattern>/insert</url-pattern>
-    </servlet-mapping>
-
-
+	<servlet-mapping>
+		<servlet-name>CatalogoControl</servlet-name>
+		<url-pattern>/catalogo</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>DettagliControl</servlet-name>
+		<url-pattern>/dettagli</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>LoginControl</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>DettagliOrdineControl</servlet-name>
+		<url-pattern>/dettagliOrdine</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>RegistrazioneControl</servlet-name>
+		<url-pattern>/registrazione</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>LogoutControl</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>AdminControl</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>InsertAdminControl</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ModificaAdminControl</servlet-name>
+		<url-pattern>/modifica</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>OrdiniAdminControl</servlet-name>
+		<url-pattern>/ordiniAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ChooseTypeControl</servlet-name>
+		<url-pattern>/chooseType</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>LogoutAdminControl</servlet-name>
+		<url-pattern>/logoutAdmin</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>EmailCheck</servlet-name>
+		<url-pattern>/emailCheck</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>ElemCarrelloCount</servlet-name>
+		<url-pattern>/cartCount</url-pattern>
+	</servlet-mapping>
+	
+	
+	
 </web-app>

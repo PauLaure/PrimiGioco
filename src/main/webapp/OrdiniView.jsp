@@ -1,9 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <% 
-	ArrayList<?> ordini = (ArrayList<?>) request.getAttribute("ordini");
-    ComponiDAO model = new ComponiDAO();
-    
+    	ArrayList<?> ordini = (ArrayList<?>) request.getAttribute("ordini");
+    	ComponiDAO model = new ComponiDAO();
     %>
 <!DOCTYPE html>
 <html>
@@ -12,13 +11,16 @@
 
 <head>
 <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="script/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="script/countElem.js"></script>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="img/logo2.png" />
-<title>Primigioco: Admin-Ordini</title>
+<title>PCWorld: Ordini</title>
 </head>
 <body>
-<%@include file="../headerAdmin.jsp" %>
+<%@include file="/header.jsp" %>
 <br>
+<div class="content">
 	<div class="ordinicontent">
 		
 			<%if(ordini!=null && ordini.size()!=0){
@@ -37,7 +39,7 @@
 			<hr>
 			<div class="statodettagli">
 			<p> Stato: <%=ordine.getStato() %><p>
-			<div class="iconInfo" style="float:none;"><a href="./ordiniAdmin?op=dettagli&id=<%=ordine.getIdOrdine() %>"><button><img src="img/icona-info.png" class="image"></button> Info prodotti</a></div>
+			<div class="iconInfo" style="float:none;"><a href="./dettagliOrdine?id=<%=ordine.getIdOrdine() %>"><button><img src="img/icona-info.png" class="image"></button> Info prodotti</a></div>
 			
 			</div>
 			</div>				
@@ -47,6 +49,9 @@
 		<h2>Non ci sono ordini</h2>
 		<% }%>
 	</div>
-	
+
+</div>
+<br>
+<%@include file="/footer.jsp" %>
 </body>
 </html>

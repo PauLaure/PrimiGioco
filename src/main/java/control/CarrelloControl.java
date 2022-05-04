@@ -1,8 +1,8 @@
-package it.unisa.control;
-import it.unisa.model.*;
-import it.unisa.model.bean.OrdineBean;
-import it.unisa.model.bean.UserBean;
-import it.unisa.model.dao.*;
+package control;
+import model.*;
+import model.bean.OrdineBean;
+import model.bean.UserBean;
+import model.dao.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.sql.SQLException;

@@ -29,7 +29,7 @@
 		
 		<div class="registrazione-left">
 			<div class="registrazione-left-input">
-				<form action="./registrazione" method="post" name="formReg" onsubmit="event.preventDefault();check(this)">
+				<form action="RegistrazioneControl" method="post" name="formReg" onsubmit="event.preventDefault();check(this)">
 			   		<div class="inputRegi">
 			            <input type="text" id="nm" name="nm" autofocus required placeholder="Nome" onblur="checkNome()"><br>
 			            <span id="result1"></span>

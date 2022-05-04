@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,9 +11,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.unisa.model.bean.OrdineBean;
-import it.unisa.model.bean.UserBean;
-import it.unisa.model.dao.OrdiniDAO;
+import model.bean.OrdineBean;
+import model.bean.UserBean;
+import model.dao.OrdiniDAO;
 
 
 public class OrdiniControl extends HttpServlet {
