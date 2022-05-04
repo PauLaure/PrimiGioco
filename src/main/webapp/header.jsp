@@ -90,15 +90,32 @@
 </div>
 
 <div class="navmenu">
-    <a href="catalogo">Home</a>
-    <div class="dropdown">
-        <a class="dropLink navmenuspacer">Catalogo</a>
-
-
-    </div>
-    <a href="./ChiSiamo.jsp" class="navmenuspacer">Chi siamo</a>
-
+		<a href="catalogo">Home</a>
+		<div class="dropdown">
+			<a class="dropLink navmenuspacer">Catalogo</a>
+			<ul class="dropdown-contenuto">
+					<li><div class="dropdown2">
+				<a class="dropLink2" href="./chooseType?tipologia=tavolo">Tavolo</a>
+							
+				</div></li>
+				<li><div class="dropdown2">		
+					<a class="dropLink2" href="./chooseType?tipologia=neonati">Neonati</a>
+						
+				</div></li>
+				<li><a href="./chooseType?tipologia=tre anni">3/6 Anni</a></li>	
+				<li><a href="./chooseType?tipologia=sette anni ">7/12 Anni</a></li>
+				<li><a href="./chooseType?tipologia=dodici">12+ Anni</a></li>
+			</ul>
+		</div>
+		<a href="./ChiSiamo.jsp" class="navmenuspacer">Chi siamo</a>
 </div>
+<div class="menuSmartUser">
+	<img id ="btnOpenMenu"src="./img/MenuNav.png" width="30" height="30">
+</div>
+
+			
+						
+	  
 <script type="text/javascript">
     $('#btnOpenMenu').click(function () {
         $("#menu").slideToggle();
