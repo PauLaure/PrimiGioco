@@ -53,6 +53,18 @@ body {
     width: 180px;
 }
 
+.filter {
+text-align: center;
+margin: auto;
+width: 100%;
+}
+
+.filter img {
+width: 150px;
+margin: 10px;
+display:inline;
+}
+
 .content {
     text-align: center;
     padding-left: 10px;

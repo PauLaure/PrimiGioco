@@ -26,6 +26,18 @@
 <body>
 <%@include file="header.jsp" %>
 
+<div class="filter">
+
+         <h2> L'acquisto giusto per ogni età!</h2>
+		
+		 <a href="./chooseType?tipologia=neonati"><img class="" src="img-filter/0-2-anni.png"></a>	
+		 <a href="./chooseType?tipologia=tre anni"><img class="" src="img-filter/3-6-anni.png"></a>		 
+		 <a href="./chooseType?tipologia=sette anni"><img class="" src="img-filter/7-12-anni.png"></a>	
+	     <a href="./chooseType?tipologia=dodici"><img class="" src="img-filter/12-anni.png"></a>
+	     <a href="./chooseType?tipologia=tavolo"><img class="" src="img-filter/tavolo.png"></a>
+ 
+</div>
+
 <div class="content">
     <h2>Prodotti</h2>
     <div class="prodotti">
