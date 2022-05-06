@@ -177,7 +177,7 @@ login {
     border: 2px;
     border-style: solid;
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 450px;
