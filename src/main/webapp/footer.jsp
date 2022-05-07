@@ -9,8 +9,10 @@
 </head>
 <body>
 <div class="footer">
-    <div class="footertext">
-        <p><b>Contatti:</b><br>PrimiGioco.infoitalia@gmail.com</p>
+    <div class="footertext"> 
+        <p> <b>Contatti:</b> <br>
+    		<a class="footertext" href="emailto:primigioco.infoitalia@gmail.com"> primigioco.infoitalia@gmail.com</a>
+    	</p>
     </div>
     <div class="copyright">
         <p><b>© All copyright reserved to PrimiGioco</b>
@@ -31,11 +33,11 @@
 
     <div class="socialdistance">
         <div class="social">
-            <a href="https://www.instagram.com/PrimiGioco" target="_blank"><img src="img/instagram-grigio.png"
+            <a href="https://www.instagram.com/primigioco" target="_blank"><img src="img/instagram-grigio.png"
                                                                                 class="image" hspace="3"></a>
         </div>
         <div class="social">
-            <a href="https://www.facebook.com/PrimiGioco" target="_blank"><img src="img/facebook-grigio.png"
+            <a href="https://www.facebook.com/profile.php?id=100081034091613" target="_blank"><img src="img/facebook-grigio.png"
                                                                                class="image" hspace="3"></a>
         </div>
         <div class="social">

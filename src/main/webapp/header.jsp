@@ -46,7 +46,7 @@
         <div class="carrello">
 
             <a href="carrello">
-                <div id="cont" class="contatore"></div>
+               <div id="cont" class="contatore"></div>
             </a>
             <script type="text/javascript">
                 function increment() {
