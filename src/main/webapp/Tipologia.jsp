@@ -34,21 +34,21 @@
 		<p><%=bean.getNome()%></p>
 		<img src="<%=bean.getPath()%>" style="display: inline-block;" width="256px" height="256px">
 		€<%=bean.getPrezzo()%>
-		<%if(bean.getQuantita()!=0){ %>
-			<div class="iconInfo"><a href="./dettagli?tipologia=<%=bean.getTipologia()%>&id=<%=bean.getIdProdotto() %>"><button><img src="img/icona-info.png" class="image"></button></a></div>
-            <div class="iconCart"><button id= "add" onclick="addTocart(<%=bean.getIdProdotto()%>),increment()"><img src="img/icon-cart.png" class="image"></button></div>
-		<%}else{ %>
-			<div class="iconInfo"><a href="./dettagli?tipologia=<%=bean.getTipologia()%>&id=<%=bean.getIdProdotto() %>"><button><img src="img/icona-info.png" class="image"></button></a></div>
-			<%} %>
+			<%if(bean.getQuantita()!=0){ %>
+				<div class="iconInfo"><a href="./dettagli?tipologia=<%=bean.getTipologia()%>&id=<%=bean.getIdProdotto() %>"><button><img src="img/icona-info.png" class="image"></button></a></div>
+        	    <div class="iconCart"><button id= "add" onclick="addTocart(<%=bean.getIdProdotto()%>),increment()"><img src="img/icon-cart.png" class="image"></button></div>
+			<%} else{ %>
+				<div class="iconInfo"><a href="./dettagli?tipologia=<%=bean.getTipologia()%>&id=<%=bean.getIdProdotto() %>"><button><img src="img/icona-info.png" class="image"></button></a></div>
+				<%} %>
 		</fieldset>
 	</div>
 	<% 
 			}
-			}else{
+		}else{
 	%>
-		<div>Non ci sono prodotti</div>
+		<div>Ci scusiamo per il disagio, non ci sono prodotti richiesti al momento!</div>
 	<% 
-			}
+		}
 	%>
 	</div>
 	</div>

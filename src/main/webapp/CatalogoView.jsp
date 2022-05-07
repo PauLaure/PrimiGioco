@@ -25,7 +25,6 @@
 
 <body>
 <%@include file="header.jsp" %>
-
 <div class="filter">
 
          <h2> L'acquisto giusto per ogni età!</h2>
@@ -39,13 +38,13 @@
 </div>
 
 <div class="content">
-    <h2>Prodotti</h2>
+    <h2> Tutti i nostri prodotti!</h2>
     <div class="prodotti">
         <%
-            int tmp = prodotti.size() / 10;
+            int tmp = prodotti.size() / 8;
             if (prodotti != null && prodotti.size() != 0) {
 
-                for (int i = 0 + index * 10; i < index * 10 + 10; i++) {
+                for (int i = 0 + index * 8; i < index * 8 + 8; i++) {
                     if (i < prodotti.size()) {
                         ProdottoBean bean = (ProdottoBean) prodotti.get(i);
         %>
@@ -155,7 +154,6 @@
 </div>
 <br>
 <%@ include file="footer.jsp" %>
-
 </body>
 
 </html>
