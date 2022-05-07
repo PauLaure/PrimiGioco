@@ -31,8 +31,8 @@
         <li>Giochi per ragazzini</li>
     </ul>
     <h2>Riguardo gli sviluppatori?</h2>
-    <p>Siamo un gruppo di studenti iscritti al secondo anno della facoltà d'Informatica, presso l'Università di Fisciano
-        (SA), che, affascinati dal corso di Tecnologia Software per il Web, si sono impegnati al massimo per offrirvi un
+    <p>Si tratta di un gruppo di studenti iscritti presso l'Università degli studi di Salerno (SA) nella facoltà di Informatica,
+    	 che, affascinati dal corso di Tecnologia Software per il Web, si sono impegnati al massimo per offrire un
         servizio sicuro e semplice.</p>
     <h2>Come possiamo contattarvi?</h2>
     <p>Sui vari social situati in basso e al seguente indirizzo email: PrimiGioco.infoitalia@gmail.com</p>
