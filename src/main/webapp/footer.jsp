@@ -11,7 +11,7 @@
 <div class="footer">
     <div class="footertext"> 
         <p> <b>Contatti:</b> <br>
-    		<a class="footertext" href="emailto:primigioco.infoitalia@gmail.com"> primigioco.infoitalia@gmail.com</a>
+    		<a class="footertext" href="mailto:primigioco.infoitalia@gmail.com"> primigioco.infoitalia@gmail.com</a>
     	</p>
     </div>
     <div class="copyright">

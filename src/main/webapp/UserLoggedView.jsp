@@ -13,7 +13,7 @@
 <script type="text/javascript" src="script/countElem.js"></script>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="img/logo2.png" />
-<title>PrimiGioco: Ciao <%=user.getNome() %></title>
+<title>PrimiGioco:</title>
 </head>
 <body>
 <%@include file="header.jsp" %>
