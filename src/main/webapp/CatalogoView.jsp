@@ -25,6 +25,55 @@
 
 <body>
 <%@include file="header.jsp" %>
+
+<div class="slideshow-container">
+		<div class="sliderPreferences">
+			<div class="mySlides fade">
+				<img src="./img-banner/giocobambini-banner.png" height="400" width="100%">	
+			</div>
+					
+			<div class="mySlides fade">
+				<img src="./img-banner/gioconeonato-banner.png" height="400" width="100%">
+			</div>
+					
+			<div class="mySlides fade">
+				<img src="./img-banner/gioco-robotica-banner.png" height="400" width="100%">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="./img-banner/giocotavolo-banner.png" height="400" width="100%">
+			</div>
+			
+		</div>
+	<div style="text-align: center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+	</div>
+	<script>
+		var slideIndex = 0;
+		showSlides();
+		
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for(i=0;i<slides.length;i++){
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if(slideIndex >slides.length) {slideIndex = 1}
+			for(i=0;i<dots.length;i++){
+				dots[i].className = dots[i].className.replace(" active","");
+			}
+			slides[slideIndex-1].style.display = "block";
+			dots[slideIndex-1].className += " active";
+			setTimeout(showSlides, 8000); //cambio ogni 10 secondi quindi 10000 -- edit: adesso 8 secondi --> 8000
+		}
+	</script>
+
 <div class="filter">
 
          <h2> L'acquisto giusto per ogni età!</h2>

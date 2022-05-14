@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.unisa.model.bean.CartaBean;
-import it.unisa.model.bean.IndirizzoBean;
-import it.unisa.model.bean.UserBean;
-import it.unisa.model.dao.IndirizzoDAO;
-import it.unisa.model.dao.PagamentoDAO;
+import model.bean.CartaBean;
+import model.bean.IndirizzoBean;
+import model.bean.UserBean;
+import model.dao.IndirizzoDAO;
+import model.dao.PagamentoDAO;
 
 
 public class InfoUtenteControl extends HttpServlet {

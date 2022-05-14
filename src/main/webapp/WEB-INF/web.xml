@@ -14,6 +14,11 @@
 	</servlet>
 	
 	<servlet>
+		<servlet-name>InserimentoFinalControl</servlet-name>
+		<servlet-class>control.InserimentoFinalControl</servlet-class>
+	</servlet>
+	
+	<servlet>
 		<servlet-name>CatalogoControl</servlet-name>
 		<servlet-class>control.CatalogoControl</servlet-class>
 	</servlet>
@@ -34,7 +39,10 @@
 		<servlet-class>RegistrazioneControl</servlet-class>
 	</servlet>
 	
-	
+	<servlet>
+		<servlet-name>InfoUtenteControl</servlet-name>
+		<servlet-class>control.InfoUtenteControl</servlet-class>
+	</servlet>
 	
 	<servlet>
 		<servlet-name>LogoutControl</servlet-name>
@@ -45,7 +53,7 @@
 	
 	<servlet>
 		<servlet-name>DettagliOrdineControl</servlet-name>
-		<servlet-class>it.unisa.control.DettagliOrdineControl</servlet-class>
+		<servlet-class>control.DettagliOrdineControl</servlet-class>
 	</servlet>
 	
 	
@@ -90,8 +98,16 @@
 		<servlet-class>control.ElemCarrelloCount</servlet-class>
 	</servlet>
 	
+	<servlet>
+		<servlet-name>OrdiniControl</servlet-name>
+		<servlet-class>control.OrdiniControl</servlet-class>
+	</servlet>
 	
 	
+	<servlet-mapping>
+		<servlet-name>OrdiniControl</servlet-name>
+		<url-pattern>/ordini</url-pattern>
+	</servlet-mapping>
 	
 	<servlet-mapping>
 		<servlet-name>CarrelloControl</servlet-name>
@@ -113,6 +129,7 @@
 		<url-pattern>/login</url-pattern>
 	</servlet-mapping>
 	
+	
 	<servlet-mapping>
 		<servlet-name>DettagliOrdineControl</servlet-name>
 		<url-pattern>/dettagliOrdine</url-pattern>
@@ -133,6 +150,15 @@
 	
 	
 	
+	<servlet-mapping>
+		<servlet-name>InfoUtenteControl</servlet-name>
+		<url-pattern>/infoUtente</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>InserimentoFinalControl</servlet-name>
+		<url-pattern>/inserimento</url-pattern>
+	</servlet-mapping>
 	
 	<servlet-mapping>
 		<servlet-name>AdminControl</servlet-name>
