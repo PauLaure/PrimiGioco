@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.unisa.model.dao.ProdottoDAO;
+import model.dao.ProdottoDAO;
 
 
 public class ModificaAdminControl extends HttpServlet {
