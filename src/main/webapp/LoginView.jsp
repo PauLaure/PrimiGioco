@@ -23,7 +23,8 @@
 <br>
 <div class="content">
     <div class="login">
-        <div style="width: 100%; height: 900px; background: url(./img-banner/Background-login2.jpg) no-repeat center center fixed; background-size: cover;"></div>
+        <div style="width: 100%; height: 900px; background: url(./img-banner/Background-login2.jpg) no-repeat center center fixed; background-size: cover;">
+        </div>
 
         <div class="loginblock">
             <form action="./login" method="post" id="form">

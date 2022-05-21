@@ -14,7 +14,7 @@
 
     <div class="logoadmin">
         <a href="admin">
-            <img src="img/logo2.png" style="width: 35%"/>
+            <img src="img/logo2.png" style="width: 30%;"/>
         </a>
     </div>
     <div class="benvenutoAdmin">
