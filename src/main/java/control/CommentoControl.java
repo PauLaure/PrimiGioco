@@ -1,4 +1,4 @@
-package it.unisa.control;
+package control;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,9 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import it.unisa.model.bean.UserBean;
-import it.unisa.model.bean.ValutazioneBean;
-import it.unisa.model.dao.ValutazioneDAO;
+import model.bean.UserBean;
+import model.bean.ValutazioneBean;
+import model.dao.ValutazioneDAO;
 
 
 public class CommentoControl extends HttpServlet {

@@ -140,6 +140,10 @@
 		<url-pattern>/registrazione</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>CommentoControl</servlet-name>
+		<servlet-class>control.CommentoControl</servlet-class>
+	</servlet>
 	
 	
 	<servlet-mapping>
@@ -149,6 +153,11 @@
 	
 	
 	
+	
+	<servlet-mapping>
+		<servlet-name>CommentoControl</servlet-name>
+		<url-pattern>/comControl</url-pattern>
+	</servlet-mapping>
 	
 	<servlet-mapping>
 		<servlet-name>InfoUtenteControl</servlet-name>
