@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-    <% 
+  <% 
     	UserBean user = (UserBean) request.getSession().getAttribute("Utente");
     	IndirizzoBean indi = (IndirizzoBean) request.getAttribute("indirizzo");
     	CartaBean carta = (CartaBean) request.getAttribute("carta");
@@ -13,7 +13,7 @@
 <script type="text/javascript" src="script/countElem.js"></script>
 <meta charset="UTF-8">
 <link rel="icon" type="image/png" href="img/logo2.png" />
-<title>PrimiGioco:</title>
+<title>PrimiGioco: Ciao <%=user.getNome() %></title>
 </head>
 <body>
 <%@include file="header.jsp" %>

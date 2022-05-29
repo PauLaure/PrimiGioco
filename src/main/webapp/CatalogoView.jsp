@@ -41,11 +41,17 @@
 			</div>
 			
 			<div class="mySlides fade">
+				<img src="./img-banner/parcogiochi-banner.png" height="400" width="100%">
+			</div>
+			
+			<div class="mySlides fade">
 				<img src="./img-banner/giocotavolo-banner.png" height="400" width="100%">
 			</div>
 			
+			
 		</div>
 	<div style="text-align: center">
+		<span class="dot"></span>
 		<span class="dot"></span>
 		<span class="dot"></span>
 		<span class="dot"></span>
@@ -177,11 +183,8 @@
         <a href="./catalogo?action=set&index=5">
             <button>5</button>
         </a>
-        <a href="./catalogo?action=set&index=6">
-            <button>6</button>
-        </a>
 
-        <%if (index < 5) { %>
+        <%if (index < 4) { %>
         <a href="./catalogo?action=add">
             <button>Avanti →</button>
         </a>
@@ -194,7 +197,7 @@
             <button>← Indietro</button>
         </a>
         <%}%>
-        <%if (index < 5) { %>
+        <%if (index < 4) { %>
         <a href="./catalogo?action=add">
             <button>Avanti →</button>
         </a>

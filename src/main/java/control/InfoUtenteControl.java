@@ -20,8 +20,10 @@ public class InfoUtenteControl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
     private static final PagamentoDAO model = new PagamentoDAO();  
     private static final IndirizzoDAO modelIndi = new IndirizzoDAO();
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		UserBean user = (UserBean) request.getSession().getAttribute("Utente");
+	
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+    	UserBean user = (UserBean) request.getSession().getAttribute("Utente");
 		try {
 			CartaBean carta = model.doRetrieveCarta(user.getNumeroCarta());
 			IndirizzoBean indi = modelIndi.doRetrieveIndirizzo(user);

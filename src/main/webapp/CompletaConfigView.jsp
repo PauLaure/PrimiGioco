@@ -31,17 +31,17 @@
 
 			<input type="hidden" name="id" value="<%=utente.getIdUtente()%>">
 	    		<div class="inputBox">
-	    			<span class="dettagliSpan">Città</span>
+	    			<span class="dettagliSpan">Città*</span>
 			    	<input type="text" id="citta" name="citta" autofocus required onblur="checkCitta()"><br>
 					<span id="resultCitta"> </span>
 				</div>
 				<div class="inputBox">
-	    			<span class="dettagliSpan">Via</span>
+	    			<span class="dettagliSpan">Via*</span>
 				   	<input type="text" id="via" name="via" autofocus required onblur="checkVia()"><br>
 					<span id="resultVia"> </span>
 				</div>
 				<div class="inputBox">
-	    			<span class="dettagliSpan">Numero Civico</span>
+	    			<span class="dettagliSpan">Numero Civico*</span>
 					<input type="text" id="NCivico" name="NCivico" autofocus required maxlength="3" onblur="checkNumero()"><br>
 					<span id="resultCivico"> </span>
 				</div>
@@ -59,22 +59,22 @@
 				   	<input type="text" id="scala" name="scala" autofocus><br>
 				</div>
 				<div class="inputBox">
-	    			<span class="dettagliSpan">CVC</span>   	
+	    			<span class="dettagliSpan">CVC*</span>   	
 			    	<input type="text" id="codS" name="codS" autofocus required maxlength="3"  onblur="checkCods()"><br>
 					<span id="resultCodS"></span>  		
 				</div>
 				<div class="inputBox">
-	    			<span class="dettagliSpan">Numero carta</span>		
+	    			<span class="dettagliSpan">Numero carta*</span>		
 					<input type="text" id="numCarta" name="numCarta" autofocus required maxlength="16" onblur="checkNumCarta()" ><br>
 			    	<span id="resultNumCarta"> </span>
 				</div>
 				<div class="inputBox">
-	    			<span class="dettagliSpan" >Scadenza Carta</span>    		
+	    			<span class="dettagliSpan" >Scadenza Carta*</span>    		
 			    	<input type="date" id="data" name="data" required onblur="checkData()"><br>
 			    	<span id="resultData"> </span>
 				</div>
 	    		<div class="inputBox">	
-				    <span class="dettagliSpan">Circuito</span>	
+				    <span class="dettagliSpan">Circuito*</span>	
 					<select  id="Circuito" name="Circuito">
 						<option id="Circuito" value="MasterCard">MasterCard</option>
 						<option id="Circuito" value="Visa">Visa</option>

@@ -1,4 +1,4 @@
-/*<meta name="viewport" content="width=device-width, initial-scale=1" 
+/* <meta name= "viewport", content="width=device-width, initial-scale=1" 
 @font-face {
    font-family: 'Quicksand', sans-serif;
    src: url('Quicksand-VariableFont_wght.ttf') format('truetype');
@@ -95,12 +95,12 @@ display:inline;
 
 .index a {
     text-decoration: none;
-    font-size: 20px;
+    /* font-size: 20px; */
     color: blue;
 }
 
 .index a:hover {
-    background-color: #e9eceb;
+    /*background-color: #e9eceb;*/
     font-weight: bold;
 }
 
@@ -1202,11 +1202,11 @@ login {
 .slideshow-container {
     text-align: center;
     display: block;
-    z-index: 10; 
-    margin-left:15%;
-    margin-right:15%;
+    z-index: 10;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: green;
-    padding:5px;
+    padding: 5px;
     border-radius: 15px;
 }
 
