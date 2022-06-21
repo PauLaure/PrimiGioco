@@ -46,7 +46,7 @@
 			            <input type="password" id="psw" name="psw" autofocus required placeholder="Password"><br>
 					</div>
 					<div>
-						<input type="checkbox" style="float:left;" autofocus required> Dichiaro di aver letto l'<a target="_blank" href="privacy.html">informativa sulla privacy</a> e do il consenso al trattamento dei dati personali.<br><br>
+						<input type="checkbox" style="float:left;" autofocus required> Dichiaro di aver letto l'<a target="_blank" href="privacy.html">informativa sulla privacy</a> e do il consenso.<br><br>
 					</div>
 					<div class="btnRegistrati" style="width: 80">
 			       	 	<input type="button" id="bottone" value="Registrati" >
